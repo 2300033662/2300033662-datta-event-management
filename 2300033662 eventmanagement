@@ -1,0 +1,11 @@
+# Unzip the project
+unzip 2300033662-datta-event-management.zip
+cd 2300033662-datta-event-management
+
+# Initialize git and connect it to your GitHub repo
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/2300033662/2300033662-datta-event-management.git
+git push -u origin main
